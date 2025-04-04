@@ -1,0 +1,18 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(rgb(19, 19, 70), rgb(0, 0, 0)) no-repeat fixed;
+    color: azure;
+    margin: 0;
+    padding: 2rem;
+}
+
+.form-container {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(rgb(9, 9, 60), rgb(0, 0, 0));
+    padding: 4rem;
+    border-radius: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
