@@ -125,7 +125,8 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
-STATICFILES_DIRS = [os.path.join(BASE_DIR, 'games/static'), os.path.join(BASE_DIR, 'users/static')]
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'games/static'), os.path.join(BASE_DIR, 'users/static'),
+                    os.path.join(BASE_DIR, 'stats/static')]
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field

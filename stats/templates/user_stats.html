@@ -1,0 +1,27 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>User Stats</title>
+    <link rel="stylesheet" href='{% static 'user_stats/css/style.css' %}'>
+</head>
+<body data-game="{{ game_name }}">
+    <div id="stats-league" class="stats-section" style="display: none;">
+        <h2>Statistics</h2>
+
+    </div>
+
+    <div id="stats-valorant" class="stats-section" style="display: none;">
+        <h2>Statistics</h2>
+
+    </div>
+
+    <div id="stats-tft" class="stats-section" style="display: none;">
+        <h2>Statistics</h2>
+
+    </div>
+
+    <script src="{% static 'user_stats/js/user_stat_logic.js' %}"></script>
+</body>
+</html>
